@@ -1,0 +1,15 @@
+body {
+	background-color: blue;
+}
+
+#b {
+	display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    #b {
+        display: initial;
+    }
+}
+
