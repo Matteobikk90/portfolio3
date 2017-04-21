@@ -22,3 +22,8 @@ a {
     }
 }
 
+canvas {
+	cursor: crosshair;
+	display: block;
+	background-color: black;
+}
