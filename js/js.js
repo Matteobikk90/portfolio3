@@ -284,6 +284,8 @@ canvas.addEventListener( 'mouseup', function( e ) {
 // once the window loads, we are ready for some fireworks!
 window.onload = loop;
 
-
+setTimeout(function() {
+    $('canvas').fadeOut('fast');
+}, 5000); // <-- time in milliseconds
 	
 });
