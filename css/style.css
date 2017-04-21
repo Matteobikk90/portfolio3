@@ -1,14 +1,23 @@
 body {
-	background-color: blue;
+	font-family: 'Ranga', cursive !important;
 }
 
-#b {
+.navbar-default {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+a {
+	color: black !important;
+}
+
+#burger-menu {
 	display: none;
 }
 
 
 @media screen and (max-width: 768px) {
-    #b {
+    #burger-menu {
         display: initial;
     }
 }
